@@ -8,7 +8,7 @@ fetch('data.json')
             console.log(data[objProperty]) // nous affichons ce que contient chaque propriété de l'objet data : un tableau d'objets pour restaurants et cultural, un objet pour addresses.
             for (item of data[objProperty]) { // nous parcourons chaque tableau d'objets pour restaurants et cultural à l'aide d'une boucle for...of : item prendra successivement chaque objet du tableau.
                 console.log(item) // nous affichons chaque élément du tableau d'objets pour restaurants et cultural, et chaque propriété de l'objet pour addresses.
-                document.querySelector('#main').innerHTML += `
+                document.querySelector('#content').innerHTML += `
         <div class="card col-3 m-3 p-2">
             <img src="${item.image}" class="img-fluid" alt="une-image">
             <div class="card-body">

@@ -50,7 +50,7 @@
           "name":"Plage",
           "description":"La promenade aménagée par le talentueux paysagiste Alexandre Chemetoff, en 1994 invite à la déambulation, tandis que la balade à proximité des digues les jours de tempête offrira aux plus téméraires un spectacle grandeur nature.",
           "adresse":"Bd Albert 1er",
-          "image":"/img/Plage.jpeg"
+          "image":"img/plage.jpeg"
         },
         {
           "name":"Place de l'hotel de ville",
