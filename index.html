@@ -12,119 +12,13 @@
 
 <body>
     <h1 class="text-center">Le Havre</h1>
-    <div class="row">
-        <button class="col-12 btn border">restaurant</button>
-        <button class="col-12 btn border">Sorties culturel</button>
-        <button class="col-12 btn border">Bonnes adresses</button>
+    <div class="row m-0">
+        <button class="col-12 col-lg-4 btn border" id="resto">restaurant</button>
+        <button class="col-12 col-lg-4 btn border" id="culturel">Sorties culturel</button>
+        <button class="col-12 col-lg-4 btn border" id="adresses">Bonnes adresses</button>
     </div>
 
-    <div class="row" id="content">
-        <div class="card col-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="${item.image}" class="img-fluid" alt="une-image">
-            <div class="card-body">
-                <p class="fs-5 card-title">${item.name}</p>
-           
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="${item.image}" alt="Image de ${item.name}">
-                                <p>${item.description}</p>
-                                <p>${item.adresses}</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="card col-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="${item.image}" class="img-fluid" alt="une-image">
-            <div class="card-body">
-                <p class="fs-5 card-title">${item.name}</p>
-           
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="card col-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="${item.image}" class="img-fluid" alt="une-image">
-            <div class="card-body">
-                <p class="fs-5 card-title">${item.name}</p>
-           
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="card col-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="${item.image}" class="img-fluid" alt="une-image">
-            <div class="card-body">
-                <p class="fs-5 card-title">${item.name}</p>
-           
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
+    <div class="row d-flex justify-content-center m-0" id="content">
 
     </div>
 
@@ -133,6 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>
