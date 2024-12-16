@@ -22,3 +22,32 @@ fetch('data.json')
         }
     })
     .catch(error => console.error(error)); // en cas d'erreur, nous affichons un message d'erreur dans la console.
+
+"use strict";
+window.addEventListener("DOMContentLoaded", () => {
+    animate_text(document.querySelector(".animate-text"));
+});
+
+function animate_text(elem) {
+    if (!elem) return; // Vérifie si l'élément existe
+    let delay = 10;
+    let contents = elem.textContent.trim(); // 
+    elem.textContent = "";
+
+    // Ajout progressif des lettres
+    contents.split("").forEach((letter, index) => {
+        setTimeout(() => {
+            elem.textContent += letter;
+        }, delay * index);
+    });
+}
+
+const nav = document.querySelector(".scrolling");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 10) {
+        nav.style.top = 0;
+    } else {
+        nav.style.top = "-50px";
+    }
+})
