@@ -4,8 +4,7 @@
         "name": "La Taverne Paillette",
         "description": "Brasserie historique spécialisée en plats de produits de la mer et de choucroute, dotée d'un bar carrelé et d'une terrasse chauffée.",
         "adresse": "22 Rue Georges Braque",
-        "image": "./img/paillette.jpeg",
-        "numero": "06 50 21 32 12"
+        "image": "./img/paillette.jpeg"
       },
       {
         "name": "Le Grand Quai",
