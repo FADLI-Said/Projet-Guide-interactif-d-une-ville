@@ -26,6 +26,7 @@ fetch("data.json")
         <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
         <p class="card-text text-center">${item.description}</p>
         <p class="card-text text-center">${item.adresse}</p>
+        <p class="card-text text-center num">${item.numero}</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -34,11 +35,22 @@ fetch("data.json")
   </div>
 </div>
             `;
+            
         i++
       });
     });
   })
   .catch((error) => console.error(error));
+
+
+  const numero = document.querySelector(".num")
+            if (numero === "undefined") {
+              numero.style.d = "-none";
+              numero.innerText = ""
+              console.log(numero);
+                            
+            }
+
 
 fetch("data.json")
   .then((response) => response.json())
@@ -151,7 +163,7 @@ fetch("data.json")
     data.restaurants.forEach((item) => {
       console.log(item);
 
-        document.querySelector("#content").innerHTML += `
+      document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
@@ -170,6 +182,9 @@ fetch("data.json")
                         <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>
+                        <p class="card-text text-center">${item.numero}</p>
+                        
+                                           
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -177,14 +192,16 @@ fetch("data.json")
                     </div>
                   </div>
                 </div>`;
-        i++
-      ;
+      // <p class="card-text text-center">${item.numero}</p>
+      i++
+        ;
     })
-    
+
+
     data.culture.forEach((item) => {
       console.log(item);
 
-        document.querySelector("#content").innerHTML += `
+      document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
@@ -210,14 +227,14 @@ fetch("data.json")
                     </div>
                   </div>
                 </div>`;
-        i++
-      ;
+      i++
+        ;
     })
-    
+
     data.adresses.forEach((item) => {
       console.log(item);
 
-        document.querySelector("#content").innerHTML += `
+      document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
@@ -243,8 +260,8 @@ fetch("data.json")
                     </div>
                   </div>
                 </div>`;
-        i++
-      ;
+      i++
+        ;
     });
   })
   .catch((error) => console.error(error));
