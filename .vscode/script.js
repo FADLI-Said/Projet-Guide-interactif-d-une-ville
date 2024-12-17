@@ -45,7 +45,7 @@ function animate_text(elem) {
 const nav = document.querySelector(".scrolling");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 10) {
+    if (window.scrollY > 20) {
         nav.style.top = 0;
     } else {
         nav.style.top = "-50px";
