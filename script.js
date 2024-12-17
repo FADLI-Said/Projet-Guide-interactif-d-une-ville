@@ -126,6 +126,131 @@ fetch("data.json")
   .catch((error) => console.error(error));
 
 
+  document.getElementById("tout").addEventListener("click", function () {
+    document.querySelector(".accueil").innerHTML = ""
+    document.querySelector(".accueil").innerHTML = `
+    <img src="./img/villeduHavre.jpeg" alt="villeduHavre" width="95%" id="mainImage">
+        <p class="text-center fs-6 fst-italic animate-text m-2 text-light border rounded p-2">Le Havre, située en
+            Normandie, est une ville
+            portuaire
+            emblématique de la
+            côte
+            nord-ouest
+            de la France.
+            Reconstruite après la Seconde Guerre mondiale par l’architecte Auguste Perret, son centre-ville est classé
+            au patrimoine mondial de l’UNESCO pour son architecture en béton novatrice. La ville abrite l'un des plus
+            grands ports maritimes d'Europe, favorisant le commerce et les échanges internationaux. Bordée par la
+            Manche, elle offre de belles plages et une promenade agréable sur son front de mer.</p>`
+    fetch("data.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Restaurants</h2>`
+    data.restaurants.forEach((item) => {
+      console.log(item);
+
+      document.querySelector("#content").innerHTML += `
+                <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <div class="card-body">
+                        <p class="fs-5 card-title">${item.name}</p>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <p class="card-text text-center">${item.description}</p>
+                        <p class="card-text text-center">${item.adresse}</p>                                                                   
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>`;
+      i++
+        ;
+    })
+
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Sortie culturel</h2>`
+    data.culture.forEach((item) => {
+      console.log(item);
+
+      document.querySelector("#content").innerHTML += `
+                <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <div class="card-body">
+                        <p class="fs-5 card-title">${item.name}</p>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <p class="card-text text-center">${item.description}</p>
+                        <p class="card-text text-center">${item.adresse}</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>`;
+      i++
+        ;
+    })
+
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Bonne adresses</h2>`
+    data.adresses.forEach((item) => {
+      console.log(item);
+
+      document.querySelector("#content").innerHTML += `
+                <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <div class="card-body">
+                        <p class="fs-5 card-title">${item.name}</p>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">${item.name}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <p class="card-text text-center">${item.description}</p>
+                        <p class="card-text text-center">${item.adresse}</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>`;
+      i++
+        ;
+    });
+  })
+  .catch((error) => console.error(error));
+  })
+
+
 document.getElementById("resto").addEventListener("click", function () {
   document.querySelector("#content").innerHTML = "";
   document.getElementById("minTitle").innerText = "Restaurants"
@@ -141,6 +266,10 @@ document.getElementById("adresses").addEventListener("click", function () {
   document.getElementById("minTitle").innerText = "Bonnes adresses"
 });
 
+document.getElementById("tout").addEventListener("click", function () {
+  document.querySelector("#content").innerHTML = "";
+  document.getElementById("minTitle").innerText = ""
+});
 
 
 
@@ -298,16 +427,16 @@ fetch("data.json")
       <div id="restaurant" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/boucheoreille.jpeg" class="d-block w-100" alt="Image 1"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/boucheoreille.jpg" class="d-block w-100" alt="Image 1"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/GrandQuai.jpeg" class="d-block w-100" alt="Image 2"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/GrandQuai.jpg" class="d-block w-100" alt="Image 2"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/paillette.jpeg" class="d-block w-100" alt="Image 3"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/paillette.jpg" class="d-block w-100" alt="Image 3"
+                      style="height: auto; object-fit: contain;">
               </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#restaurant" data-bs-slide="prev">
@@ -330,16 +459,16 @@ fetch("data.json")
       <div id="Sortie-culturel" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/hoteldeville.jpeg" class="d-block w-100" alt="Image 1"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/hoteldeville.jpg" class="d-block w-100" alt="Image 1"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/container.jpeg" class="d-block w-100" alt="Image 2"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/container.jpg" class="d-block w-100" alt="Image 2"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/Musée.jpeg" class="d-block w-100" alt="Image 3"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/Musée.jpg" class="d-block w-100" alt="Image 3"
+                      style="height: auto; object-fit: contain;">
               </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#Sortie-culturel" data-bs-slide="prev">
@@ -362,16 +491,16 @@ fetch("data.json")
       <div id="bonne-adresse" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/jardin.jpeg" class="d-block w-100" alt="Image 1"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/jardin.jpg" class="d-block w-100" alt="Image 1"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/pasino.jpeg" class="d-block w-100" alt="Image 2"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/pasino.jpg" class="d-block w-100" alt="Image 2"
+                      style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/plage.jpeg" class="d-block w-100" alt="Image 3"
-                      style="height: 30rem; object-fit: cover;">
+                  <img src="./img/plage.jpg" class="d-block w-100" alt="Image 3"
+                      style="height: auto; object-fit: contain;">
               </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#bonne-adresse" data-bs-slide="prev">

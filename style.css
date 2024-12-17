@@ -1,32 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 
 
-*{
-    margin: 0 ;
-    padding: 0 ;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:"Yanone Kaffeesatz", sans-serif ;
+    font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-body{
-    background-color: rgb(180, 180, 180);
+
+a:hover {
+    text-decoration: underline;
 }
 
-#mainImage{
+body {
+    /* background-color: rgb(180, 180, 180); */
+    background-color: #023047;
+    /* background-color: #8ecae6; */
+    /* background-color: #fb8500; */
+    /* background-color: #e5e5e5; */
+}
+
+#mainImage {
     box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.445);
-    margin: 1rem;
+    margin: 0 auto;
+    display: block;
 }
 
-.card{
+.card {
     box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.445);
+    background-color:#8ecae6 ;
 }
 
-#content{
+#content {
     width: 90%;
     margin: 0 auto !important;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
 }
 
@@ -40,7 +51,38 @@ body{
     z-index: 10;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
+}
+
+#btnM {
+
+    color: white;
+    margin: 0 auto;
+    border: none;
+}
+
+#btnP {
+
+    color: white;
+    margin: 0 auto;
+    border: none;
+}
+
+#btnB {
+
+    color: white;
+    margin: 0 auto;
+    border: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
 }

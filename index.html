@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg bg-dark text-center scrolling p-0 bg-dark" data-bs-theme="dark">
         <div class="container-fluid bg-dark">
-            <a class="navbar-brand text-light" href="#">Menu</a>
+            <a class="navbar-brand text-light" href="#" id="tout">Menu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,10 +37,11 @@
         </div>
     </nav>
 
-    <h1 class="text-center text-light" id="havre">Le Havre</h1>
+    <h1 class="text-center text-light mt-3" id="havre">Le Havre</h1>
     <div class="accueil">
-        <img src="./img/villeduHavre.jpeg" alt="villeduHavre" width="92%" id="mainImage">
-        <p class="text-center fs-6 fst-italic animate-text m-2 text-light border rounded p-2">Le Havre, située en Normandie, est une ville
+        <img src="./img/villeduHavre.jpeg" alt="villeduHavre" width="95%" id="mainImage">
+        <p class="text-center fs-6 fst-italic animate-text m-2 text-light border rounded p-2">Le Havre, située en
+            Normandie, est une ville
             portuaire
             emblématique de la
             côte
@@ -58,13 +59,164 @@
     </div>
 
     <footer class="bg-dark text-light d-flex flex-column text-center">
-        <a href="#">Mention Légal</a>
-        <a href="#">A propos</a>
-        <a href="#">Besoin d'aide</a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41462.37497336679!2d0.08999477471729177!3d49.49586938291321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02f2395218b7d%3A0x5bc1867aaf33af12!2sLe%20Havre!5e0!3m2!1sfr!2sfr!4v1734447723890!5m2!1sfr!2sfr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <button class="bg-dark" id="btnM" type="button" data-bs-toggle="modal" data-bs-target="#mention">Mention
+            Légal</button>
+        <button class="bg-dark" id="btnP" type="button" data-bs-toggle="modal" data-bs-target="#propos">A
+            propos</button>
+        <button class="bg-dark" id="btnB" type="button" data-bs-toggle="modal" data-bs-target="#aide">Besoin
+            d'aide</button>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41462.37497336679!2d0.08999477471729177!3d49.49586938291321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02f2395218b7d%3A0x5bc1867aaf33af12!2sLe%20Havre!5e0!3m2!1sfr!2sfr!4v1734447723890!5m2!1sfr!2sfr"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
     </footer>
 
 
+    <div class="modal fade" id="mention" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Mention Légal</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>1. Éditeur du site
+                        Le site "Le Havre Découverte" est édité par :
+                        Nom de l'éditeur : Le Havre Tourisme
+                        Statut juridique : Association à but non lucratif
+                        Adresse : 123 Rue de l'Océan, 76600 Le Havre, France
+                        Téléphone : +33 2 35 00 00 00
+                        Email : contact@lehavredécouverte.fr
+                        Numéro SIRET : 123 456 789 00010</p>
+
+                    <p>2. Hébergement
+                        Le site est hébergé par :
+
+                        Hébergeur : OVH SAS
+                        Adresse : 2 rue Kellermann, 59100 Roubaix, France
+                        Téléphone : +33 9 72 10 10 07</p>
+                    <p> 3. Propriété intellectuelle
+                        L'ensemble des contenus présents sur le site (textes, images, logos, vidéos, etc.) sont protégés
+                        par
+                        les droits d'auteur et sont la propriété exclusive de Le Havre Tourisme ou de tiers ayant
+                        autorisé
+                        leur utilisation. Toute reproduction, modification, ou diffusion des contenus est strictement
+                        interdite sans autorisation préalable.</p>
+
+                    <p>4. Collecte des données personnelles
+                        Le site collecte des données personnelles dans le respect des réglementations en vigueur (RGPD)
+                        :
+
+                        Finalité de la collecte : gestion des demandes d'informations, amélioration des services.
+                        Responsable du traitement : Le Havre Tourisme
+                        Durée de conservation : 12 mois.
+                        Vous disposez d'un droit d'accès, de rectification, et de suppression de vos données
+                        personnelles.
+                        Pour exercer ces droits, contactez-nous par email à contact@lehavredécouverte.fr.</p>
+
+                    <p>5. Cookies
+                        Le site utilise des cookies pour améliorer l'expérience utilisateur. Vous pouvez configurer ou
+                        refuser les cookies en accédant aux paramètres de votre navigateur.</p>
+
+                    <p>6. Limitation de responsabilité
+                        L'éditeur ne saurait être tenu responsable des dommages directs ou indirects résultant de
+                        l'utilisation du site ou d'informations inexactes.</p>
+
+                    <p>7. Contact
+                        Pour toute question relative aux mentions légales, contactez-nous à :
+
+                        Email : contact@lehavredécouverte.fr
+                        Adresse : 123 Rue de l'Océan, 76600 Le Havre, France</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="propos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">À propos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Le site "Le Havre Découverte" a pour vocation de mettre en avant les richesses culturelles,
+                    touristiques et gastronomiques de la ville du Havre.
+
+                    Objectif du site :
+                    Faire découvrir les meilleurs restaurants et lieux culturels du Havre.
+                    Promouvoir les événements et bonnes adresses incontournables de la ville.
+                    Faciliter l'accès aux informations pratiques pour les habitants et visiteurs.
+                    Ce projet est porté par des passionnés de la région, désireux de partager l'histoire,
+                    l'architecture, et la dynamique locale de Le Havre, classée au patrimoine mondial de l'UNESCO.
+
+                    Nos valeurs :
+                    Passion pour le territoire : promouvoir la richesse locale.
+                    Accessibilité : offrir des informations claires et utiles.
+                    Engagement : valoriser le tourisme responsable et durable.
+                    Pour toute suggestion ou partenariat, n'hésitez pas à nous contacter : contact@lehavredécouverte.fr.
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aide" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Besoin d'aide ?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>Nous sommes là pour vous accompagner ! Si vous rencontrez des difficultés sur le site "Le Havre
+                        Découverte", voici quelques solutions :</p>
+
+                    <p>Questions fréquentes :</p>
+                    <p>Comment trouver un restaurant ?</p>
+                    <p>Cliquez sur l'onglet "Restaurant" dans le menu principal pour accéder aux meilleures adresses de
+                        la
+                        ville.</p>
+                    <p>Comment consulter les événements culturels ?</p>
+                    <p>Rendez-vous dans la section "Sortie culturel" pour découvrir les expositions, musées, et
+                        événements
+                        à ne pas manquer.</p>
+                    <p>Comment signaler une erreur ou suggérer une adresse ?</p>
+                    <p>Vous pouvez nous envoyer un email à support@lehavredécouverte.fr ou remplir notre formulaire de
+                    contact.</p>
+                    <p>
+                        Contact direct :
+                        Si vous avez toujours besoin d'aide, contactez-nous :
+
+                        Email : support@lehavredécouverte.fr
+                        Téléphone : +33 2 35 00 00 00 (du lundi au vendredi, de 9h à 18h)
+                        Adresse : 123 Rue de l'Océan, 76600 Le Havre, France
+                        Nous nous efforçons de répondre dans les plus brefs délais afin de vous offrir la meilleure
+                        expérience possible.
+
+
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
