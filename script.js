@@ -149,6 +149,7 @@ fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Restaurants</h2>`
     data.restaurants.forEach((item) => {
       console.log(item);
 
@@ -182,6 +183,7 @@ fetch("data.json")
         ;
     })
 
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Sortie culturel</h2>`
     data.culture.forEach((item) => {
       console.log(item);
 
@@ -215,6 +217,7 @@ fetch("data.json")
         ;
     })
 
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Bonne adresses</h2>`
     data.adresses.forEach((item) => {
       console.log(item);
 
