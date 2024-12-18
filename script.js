@@ -259,7 +259,7 @@ document.getElementById("resto").addEventListener("click", function () {
 
 document.getElementById("culturel").addEventListener("click", function () {
   document.querySelector("#content").innerHTML = "";
-  document.getElementById("minTitle").innerText = "Sortie Culturel"
+  document.getElementById("minTitle").innerText = "Sorties Culturelles"
 });
 
 document.getElementById("adresses").addEventListener("click", function () {
@@ -313,7 +313,7 @@ fetch("data.json")
         ;
     })
 
-    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Sortie culturel</h2>`
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Sorties culturelles</h2>`
     data.culture.forEach((item) => {
       console.log(item);
 
@@ -347,7 +347,7 @@ fetch("data.json")
         ;
     })
 
-    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Bonne adresses</h2>`
+    document.querySelector("#content").innerHTML += `<h2 class="text-light text-center">Bonnes adresses</h2>`
     data.adresses.forEach((item) => {
       console.log(item);
 
@@ -432,7 +432,7 @@ fetch("data.json")
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/GrandQuai.avif" class="d-block w-100" alt="Image 2"
+                  <img src="./img/grandquai.avif" class="d-block w-100" alt="Image 2"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
@@ -460,7 +460,7 @@ fetch("data.json")
       <div id="Sortie-culturel" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/hoteldeville.avif" class="d-block w-100" alt="Image 1"
+                  <img src="./img/pasino.avif" class="d-block w-100" alt="Image 1"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
@@ -496,11 +496,11 @@ fetch("data.json")
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/pasino.avif" class="d-block w-100" alt="Image 2"
+                  <img src="./img/Plage.avif" class="d-block w-100" alt="Image 2"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/plage.avif" class="d-block w-100" alt="Image 3"
+                  <img src="./img/hoteldeville.avif" class="d-block w-100" alt="Image 3"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>

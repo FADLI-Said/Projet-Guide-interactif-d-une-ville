@@ -87,3 +87,16 @@ img{
     display: block;
     margin-bottom: 1rem;
 }
+
+.modal-content{
+    background-color: #8ecae6;
+    color: white;
+}
+
+.modal-content .btn-secondary{
+    background-color: #023047;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Playfair", sans-serif;
+}
