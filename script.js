@@ -539,3 +539,15 @@ function error(err) {
 }
 
 navigator.geolocation.getCurrentPosition(success, error, options);
+
+document.getElementById("resto").addEventListener("click", function() {
+  document.querySelector("#hambur").click()
+})
+
+document.getElementById("culturel").addEventListener("click", function() {
+  document.querySelector("#hambur").click()
+})
+
+document.getElementById("adresses").addEventListener("click", function() {
+  document.querySelector("#hambur").click()
+})
