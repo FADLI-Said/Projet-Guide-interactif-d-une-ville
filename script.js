@@ -127,6 +127,7 @@ fetch("data.json")
 
 
   document.getElementById("tout").addEventListener("click", function () {
+    document.querySelector("#havre").innerText = "Le Havre"
     document.querySelector(".accueil").innerHTML = ""
     document.querySelector(".accueil").innerHTML = `
     <img src="./img/villeduHavre.jpeg" alt="villeduHavre" width="95%" id="mainImage">
