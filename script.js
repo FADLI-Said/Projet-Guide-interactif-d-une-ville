@@ -428,15 +428,15 @@ fetch("data.json")
       <div id="restaurant" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/boucheoreille.avif" class="d-block w-100" alt="Image 1"
+                  <img src="./img/boucheoreille.avif" class="d-block w-100" alt="Image : Bouche a oreille"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/grandquai.avif" class="d-block w-100" alt="Image 2"
+                  <img src="./img/grandquai.avif" class="d-block w-100" alt="Image : Grand Quai"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/paillette.avif" class="d-block w-100" alt="Image 3"
+                  <img src="./img/paillette.avif" class="d-block w-100" alt="Image : Taverne la paillette"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
@@ -460,15 +460,15 @@ fetch("data.json")
       <div id="Sortie-culturel" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/pasino.avif" class="d-block w-100" alt="Image 1"
+                  <img src="./img/pasino.avif" class="d-block w-100" alt="Image : Pasino"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/container.avif" class="d-block w-100" alt="Image 2"
+                  <img src="./img/container.avif" class="d-block w-100" alt="Image : Catène de Containers"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/Musée.avif" class="d-block w-100" alt="Image 3"
+                  <img src="./img/Musée.avif" class="d-block w-100" alt="Image : MuMa Musée d'art moderne André Malraux"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
@@ -492,15 +492,15 @@ fetch("data.json")
       <div id="bonne-adresse" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/jardin.avif" class="d-block w-100" alt="Image 1"
+                  <img src="./img/jardin.avif" class="d-block w-100" alt="Image : Les Jardins Suspendus"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/Plage.avif" class="d-block w-100" alt="Image 2"
+                  <img src="./img/Plage.avif" class="d-block w-100" alt="Image : Plage du Havre"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/hoteldeville.avif" class="d-block w-100" alt="Image 3"
+                  <img src="./img/hoteldeville.avif" class="d-block w-100" alt="Image : Place de l'hotel de ville"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
