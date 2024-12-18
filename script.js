@@ -130,7 +130,7 @@ fetch("data.json")
     document.querySelector("#havre").innerText = "Le Havre"
     document.querySelector(".accueil").innerHTML = ""
     document.querySelector(".accueil").innerHTML = `
-    <img src="./img/villeduHavre.jpeg" alt="villeduHavre" width="95%" id="mainImage">
+    <img src="./img/villeduHavre.avif" alt="villeduHavre" width="95%" id="mainImage">
         <p class="text-center fs-6 fst-italic animate-text m-2 text-light border rounded p-2">Le Havre, située en
             Normandie, est une ville
             portuaire
@@ -428,15 +428,15 @@ fetch("data.json")
       <div id="restaurant" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/boucheoreille.jpg" class="d-block w-100" alt="Image 1"
+                  <img src="./img/boucheoreille.avif" class="d-block w-100" alt="Image 1"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/GrandQuai.jpg" class="d-block w-100" alt="Image 2"
+                  <img src="./img/GrandQuai.avif" class="d-block w-100" alt="Image 2"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/paillette.jpg" class="d-block w-100" alt="Image 3"
+                  <img src="./img/paillette.avif" class="d-block w-100" alt="Image 3"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
@@ -460,15 +460,15 @@ fetch("data.json")
       <div id="Sortie-culturel" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/hoteldeville.jpg" class="d-block w-100" alt="Image 1"
+                  <img src="./img/hoteldeville.avif" class="d-block w-100" alt="Image 1"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/container.jpg" class="d-block w-100" alt="Image 2"
+                  <img src="./img/container.avif" class="d-block w-100" alt="Image 2"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/Musée.jpg" class="d-block w-100" alt="Image 3"
+                  <img src="./img/Musée.avif" class="d-block w-100" alt="Image 3"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
@@ -492,15 +492,15 @@ fetch("data.json")
       <div id="bonne-adresse" class="carousel slide px-3" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="./img/jardin.jpg" class="d-block w-100" alt="Image 1"
+                  <img src="./img/jardin.avif" class="d-block w-100" alt="Image 1"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/pasino.jpg" class="d-block w-100" alt="Image 2"
+                  <img src="./img/pasino.avif" class="d-block w-100" alt="Image 2"
                       style="height: auto; object-fit: contain;">
               </div>
               <div class="carousel-item">
-                  <img src="./img/plage.jpg" class="d-block w-100" alt="Image 3"
+                  <img src="./img/plage.avif" class="d-block w-100" alt="Image 3"
                       style="height: auto; object-fit: contain;">
               </div>
           </div>
