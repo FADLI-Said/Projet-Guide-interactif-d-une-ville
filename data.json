@@ -10,7 +10,7 @@
         "name": "Le Grand Quai",
         "description": "Restaurant simple de cuisine de saison",
         "adresse": "25 Quai de Southamption",
-        "image": "./img/GrandQuai.avif"
+        "image": "./img/grandquai.avif"
       },
       {
         "name": "Le Bouche A Oreille",
