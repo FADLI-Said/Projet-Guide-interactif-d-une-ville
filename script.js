@@ -11,7 +11,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title text-center">${item.name}</p>
+                        <p class="fs-5 card-title text-light text-center text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image de ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image de ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -153,7 +153,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -187,7 +187,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -221,7 +221,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -286,7 +286,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -320,7 +320,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
@@ -354,7 +354,7 @@ fetch("data.json")
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
                     <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
                     <div class="card-body">
-                        <p class="fs-5 card-title">${item.name}</p>
+                        <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
                 </div>
 
