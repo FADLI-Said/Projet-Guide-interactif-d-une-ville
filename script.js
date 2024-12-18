@@ -9,7 +9,7 @@ fetch("data.json")
       document.getElementById("resto").addEventListener("click", function () {
         document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light text-center text-light">${item.name}</p>
                     </div>
@@ -23,7 +23,7 @@ fetch("data.json")
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
         <p class="card-text text-center">${item.description}</p>
         <p class="card-text text-center">${item.adresse}</p>
       </div>
@@ -66,7 +66,7 @@ fetch("data.json")
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
         <p class="card-text text-center">${item.description}</p>
         <p class="card-text text-center">${item.adresse}</p>
       </div>
@@ -108,7 +108,7 @@ fetch("data.json")
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
         <p class="card-text text-center">${item.description}</p>
         <p class="card-text text-center">${item.adresse}</p>
       </div>
@@ -152,7 +152,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -166,7 +166,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>                                                                   
                       </div>
@@ -186,7 +186,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -200,7 +200,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>
                       </div>
@@ -220,7 +220,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -234,7 +234,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>
                       </div>
@@ -285,7 +285,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -299,7 +299,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>                                                                   
                       </div>
@@ -319,7 +319,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -333,7 +333,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>
                       </div>
@@ -353,7 +353,7 @@ fetch("data.json")
 
       document.querySelector("#content").innerHTML += `
                 <div class="card col-12 col-lg-3 m-3 p-2 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-                    <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                    <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                     <div class="card-body">
                         <p class="fs-5 card-title text-light">${item.name}</p>
                     </div>
@@ -367,7 +367,7 @@ fetch("data.json")
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="${item.image}" class="img-fluid" alt="une image d'une ${item.name}">
+                        <img src="${item.image}" class="img-fluid" alt="une image :  ${item.name}">
                         <p class="card-text text-center">${item.description}</p>
                         <p class="card-text text-center">${item.adresse}</p>
                       </div>
