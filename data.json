@@ -1,62 +1,62 @@
 {
-    "restaurants": [
-      {
-        "name": "La Taverne Paillette",
-        "description": "Brasserie historique spécialisée en plats de produits de la mer et de choucroute, dotée d'un bar carrelé et d'une terrasse chauffée.",
-        "adresse": "22 Rue Georges Braque",
-        "image": "./img/paillette.avif"
-      },
-      {
-        "name": "Le Grand Quai",
-        "description": "Restaurant simple de cuisine de saison",
-        "adresse": "25 Quai de Southamption",
-        "image": "./img/grandquai.avif"
-      },
-      {
-        "name": "Le Bouche A Oreille",
-        "description": "Fine cuisine française à cette table revisitant les classiques dans un cadre simple et sans prétention.",
-        "adresse":"19 Rue Paul Doumer",
-        "image": "./img/boucheoreille.avif"
-      }
-    ],
-      "culture": [
-        {
-        "name": "Pasino",
-        "description":"Placé au coeur du centre historique de la ville, le Pasino du Havre vous accueille tous les jours.Notre établissement est le parfait aliage entre divertissements, plaisir sensoriel et gustatif",
-        "adresse": "55-43 Quai George V",
-        "image": "./img/pasino.avif"
-        },
-        {
-          "name": "Catène de Containers",
-          "description":"La sculpture a été créée en 2017 par Vincent Ganivet pour marquer le 500e anniversaire du port.",
-          "adresse": "Quai de Southampton",
-          "image": "./img/container.avif"
-          },
-          {
-            "name": "MuMa Musée d'art moderne André Malraux",
-            "description":"MuMa Le Havre offre une architecture entièrement dédiée à l’espace et à la lumière.",
-            "adresse": "2 Bd Clemenceau",
-            "image": "./img/Musée.avif"
-            }
-      ],
-      "adresses": [
-        {
-          "name":"Les Jardins Suspendus",
-          "description":"Ce jardin botanique se situe sur les hauteurs du Havre à l'intérieur de l'ancien fort de Sainte-Adresse. Ils dominent la ville basse, l'estuaire et la Manche",
-          "adresse":"65 Rue du Fort, 29 Rue Albert Copieux",
-          "image":"./img/jardin.avif"
-        },
-        {
-          "name":"Plage du Havre",
-          "description":"La promenade aménagée par le talentueux paysagiste Alexandre Chemetoff, en 1994 invite à la déambulation, tandis que la balade à proximité des digues les jours de tempête offrira aux plus téméraires un spectacle grandeur nature.",
-          "adresse":"Bd Albert 1er",
-          "image":"./img/Plage.avif"
-        },
-        {
-          "name":"Place de l'hotel de ville",
-          "description":"L'hôtel de ville du Havre, œuvre des architectes Auguste Perret et Jacques Tournant, est inauguré en 1958. Il remplace celui, construit en 1857 par l'architecte Charles Brunet-Debaine et détruit par les bombardements de 1944.",
-          "adresse":"Place de l'Hôtel de ville",
-          "image":"./img/hoteldeville.avif"
-        }
-      ]
+  "restaurants": [
+    {
+      "name": "La Taverne Paillette",
+      "description": "Brasserie historique spécialisée en plats de produits de la mer et de choucroute, dotée d'un bar carrelé et d'une terrasse chauffée.",
+      "adresse": "22 Rue Georges Braque",
+      "image": "./img/paillette.avif"
+    },
+    {
+      "name": "Le Grand Quai",
+      "description": "Restaurant simple de cuisine de saison",
+      "adresse": "25 Quai de Southamption",
+      "image": "./img/grandquai.avif"
+    },
+    {
+      "name": "Le Bouche A Oreille",
+      "description": "Fine cuisine française à cette table revisitant les classiques dans un cadre simple et sans prétention.",
+      "adresse": "19 Rue Paul Doumer",
+      "image": "./img/boucheoreille.avif"
     }
+  ],
+  "culture": [
+    {
+      "name": "Pasino",
+      "description": "Placé au coeur du centre historique de la ville, le Pasino du Havre vous accueille tous les jours.Notre établissement est le parfait aliage entre divertissements, plaisir sensoriel et gustatif",
+      "adresse": "55-43 Quai George V",
+      "image": "./img/pasino.avif"
+    },
+    {
+      "name": "Catène de Containers",
+      "description": "La sculpture a été créée en 2017 par Vincent Ganivet pour marquer le 500e anniversaire du port.",
+      "adresse": "Quai de Southampton",
+      "image": "./img/container.avif"
+    },
+    {
+      "name": "MuMa Musée d'art moderne André Malraux",
+      "description": "MuMa Le Havre offre une architecture entièrement dédiée à l’espace et à la lumière.",
+      "adresse": "2 Bd Clemenceau",
+      "image": "./img/Musée.avif"
+    }
+  ],
+  "adresses": [
+    {
+      "name": "Les Jardins Suspendus",
+      "description": "Ce jardin botanique se situe sur les hauteurs du Havre à l'intérieur de l'ancien fort de Sainte-Adresse. Ils dominent la ville basse, l'estuaire et la Manche",
+      "adresse": "65 Rue du Fort, 29 Rue Albert Copieux",
+      "image": "./img/jardin.avif"
+    },
+    {
+      "name": "Plage du Havre",
+      "description": "La promenade aménagée par le talentueux paysagiste Alexandre Chemetoff, en 1994 invite à la déambulation, tandis que la balade à proximité des digues les jours de tempête offrira aux plus téméraires un spectacle grandeur nature.",
+      "adresse": "Bd Albert 1er",
+      "image": "./img/Plage.avif"
+    },
+    {
+      "name": "Place de l'hotel de ville",
+      "description": "L'hôtel de ville du Havre, œuvre des architectes Auguste Perret et Jacques Tournant, est inauguré en 1958. Il remplace celui, construit en 1857 par l'architecte Charles Brunet-Debaine et détruit par les bombardements de 1944.",
+      "adresse": "Place de l'Hôtel de ville",
+      "image": "./img/hoteldeville.avif"
+    }
+  ]
+}
